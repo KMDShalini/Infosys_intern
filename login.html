@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fff;
+        }
+
+        header {
+            background-color: #1870f5;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            margin-left: 80px;
+        }
+
+        
+        .logo i{
+            color: white;
+        }
+        nav a {
+            margin-left: 20px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .breadcrumb {
+            background-color: #f8f8f8;
+            padding: 10px;
+            text-align: right;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 100px;
+        }
+
+        .login-section {
+            flex: 1;
+        }
+
+        .login-section h1 {
+            font-size: 24px;
+            margin-bottom: 40px;
+            color: #1870f5;
+            margin-left: 120px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        form button {
+            background-color: #1870f5;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-info {
+            flex: 1;
+            padding-left: 50px;
+        }
+
+        .contact-info h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 20px;
+        }
+
+        .contact-info ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .contact-info ul li {
+            margin-bottom: 10px;
+        }
+        i{
+            color: #1870f5;
+        }
+        h2 {
+            color: #1870f5;
+            margin-bottom: 10px;
+            margin-left: 120px;
+            padding: 20px;
+        }
+        h4 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            margin-top: 40px;   
+            color: black;   
+            
+        }
+        .social-media {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            margin-top: 20px; 
+        }
+        .social-media a {
+            margin-right: 10px;
+            color: #1870f5;
+            text-decoration: none;
+            font-size: 24px;
+            font-family: FontAwesome;
+        }
+        .forgot-password {
+    text-align: left;
+    color: #1870f5;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><i class="fa-solid fa-heart-pulse"></i>ONLINE<br> INSURANCE</div>
+        <nav>
+            <a href="register.html">Sign Up</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <section class="breadcrumb">
+        <p>You are here / Home / Customer Login</p>
+    </section>
+
+    <main>
+        <section class="login-section">
+            <h1>CUSTOMER LOGIN</h1>
+            <form>
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <a href="forgotpassword.html" class="forgot-password">Forgot Password?</a>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        
+
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+            <ul>
+                <li><i class="fa-solid fa-home"></i> Hebal</li>
+                <li><i class="fa-solid fa-phone"></i> 1800.30.2000</li>
+                <li><i class="fa-solid fa-envelope"></i> info@Online Insurance.com</li>
+            </ul>
+            <h4>Social Media</h4>
+            <div class="social-media">
+                
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
